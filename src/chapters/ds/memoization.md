@@ -42,7 +42,7 @@ golden ratio, $\frac{1 + \sqrt{5}}{2}$.
 
 If we record Fibonacci numbers as they are computed, we can avoid this redundant
 work. The idea is that whenever we compute `f n`, we store it in a table indexed
-by `n`. In this case the indexing keys are integers, so we can use implement
+by `n`. In this case the indexing keys are integers, so we can implement
 this table using an array:
 
 ```{code-cell} ocaml
